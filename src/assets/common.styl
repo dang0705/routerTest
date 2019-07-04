@@ -1,0 +1,42 @@
+#app
+  height: 100%
+  width: 100%
+  overflow hidden
+  ul
+    width: 100%
+    text-align center
+    display flex
+    justify-content center
+    justify-items center
+    li
+      flex 1
+      flex-shrink 0
+      list-style none
+      height: 50px
+      line-height: 50px
+      cursor pointer
+    li.is_active
+      background red
+      color #000
+    li.active-class
+      background pink
+      color #fff
+    li.info_active_class
+      background yellow
+
+  .center
+    text-align center
+    font-size: 1rem
+    font-weight: bold
+    position: absolute
+    width: 100%
+    left: 0
+    top: 10%
+  .slider
+    float left
+    border: 1px solid #000
+    width: 100px
+    height: 300px
+  .query_box
+    width: 60%
+    margin 0 auto
